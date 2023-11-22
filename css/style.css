@@ -11,6 +11,16 @@
 	font-family: "Ubuntu", sans-serif; /* Define a fonte padrão para todo o documento */
 }
 
+/* Estilo para o texto do desenvolvedor */
+.developer-text {
+    position: absolute;
+    bottom: 15px; /* Ajusta a distância do texto para a parte inferior */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%);
+    color: #82ffae; /* Cor do texto */
+	font-size: 1.2rem; /* Tamnho do texto */
+}
+
 /* Estilo da aplicação principal */
 .app {
 	display: flex;
@@ -28,7 +38,7 @@
 	min-height: 480px;
 	display: flex;
 	flex-direction: column;
-	border-radius: 1.5rem; /* Borda arredondada */
+	border-radius: 1rem; /* Borda arredondada */
 	overflow: hidden;
 }
 
@@ -41,7 +51,7 @@
 	align-items: flex-end;
 	color: #161618; /* Cor do texto */
 	text-align: right;
-	flex: 1 1 0%;
+	flex: 1;
 }
 
 /* Estilo do conteúdo dentro da área de exibição */
