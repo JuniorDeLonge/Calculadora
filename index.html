@@ -1,0 +1,127 @@
+<!DOCTYPE html> <!-- Declaração do tipo de documento HTML -->
+<html lang="pt-br"> <!-- Elemento raiz do documento com atributo de idioma definido como português do Brasil -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Configuração da codificação de caracteres para UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Configuração para compatibilidade com o Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configuração da viewport para dispositivos móveis -->
+    <link rel="stylesheet" href="css/style.css" /> <!-- Link para o arquivo de estilo CSS -->
+    <link rel="shortcut icon" href="img/calculadora.png" type="image/png"> <!-- Ícone da página -->
+    <title>Calculator | @juniordelonge</title> <!-- Título da página -->
+</head>
+<!-- Desenvolvedor @juniordelonge -->
+
+<body>
+
+    <div class="app"> <!-- Aplicação principal -->
+
+        <div class="calculator"> <!-- Calculadora -->
+
+            <div class="display"> <!-- Exibição do conteúdo -->
+
+                <div class="content"> <!-- Conteúdo -->
+
+                    <div class="input" role="textbox" aria-multiline="true" contenteditable="true"></div>
+                    <!-- Entrada de dados -->
+                    <div class="output" aria-live="assertive" aria-atomic="true"></div> <!-- Saída de dados -->
+
+                </div>
+
+            </div>
+
+            <div class="keys"> <!-- Teclas da calculadora -->
+
+                <!-- Desenvolvedor @juniordelonge -->
+
+                <div data-key="clear" class="key action" role="button" tabindex="0"> <!-- Limpar -->
+                    <span>AC</span>
+                </div>
+
+                <div data-key="brackets" class="key action" role="button" tabindex="0"> <!-- Parênteses -->
+                    <span>( )</span>
+                </div>
+
+                <div data-key="%" class="key action" role="button" tabindex="0"> <!-- Porcentagem -->
+                    <span>%</span>
+                </div>
+
+                <div data-key="/" class="key operator" role="button" tabindex="0"> <!-- Divisão -->
+                    <span>÷</span>
+                </div>
+
+                <div data-key="7" class="key" role="button" tabindex="0"> <!-- 7 -->
+                    <span>7</span>
+                </div>
+
+                <div data-key="8" class="key" role="button" tabindex="0"> <!-- 8 -->
+                    <span>8</span>
+                </div>
+
+                <div data-key="9" class="key" role="button" tabindex="0"> <!-- 9 -->
+                    <span>9</span>
+                </div>
+
+                <div data-key="*" class="key operator" role="button" tabindex="0"> <!-- Multiplicação -->
+                    <span>x</span>
+                </div>
+
+                <div data-key="4" class="key" role="button" tabindex="0"> <!-- 4 -->
+                    <span>4</span>
+                </div>
+
+                <div data-key="5" class="key" role="button" tabindex="0"> <!-- 5 -->
+                    <span>5</span>
+                </div>
+
+                <div data-key="6" class="key" role="button" tabindex="0"> <!-- 6 -->
+                    <span>6</span>
+                </div>
+
+                <div data-key="-" class="key operator" role="button" tabindex="0"> <!-- Subtração -->
+                    <span>-</span>
+                </div>
+
+                <div data-key="1" class="key" role="button" tabindex="0"> <!-- 1 -->
+                    <span>1</span>
+                </div>
+
+                <div data-key="2" class="key" role="button" tabindex="0"> <!-- 2 -->
+                    <span>2</span>
+                </div>
+
+                <div data-key="3" class="key" role="button" tabindex="0"> <!-- 3 -->
+                    <span>3</span>
+                </div>
+
+                <div data-key="+" class="key operator" role="button" tabindex="0"> <!-- Adição -->
+                    <span>+</span>
+                </div>
+
+                <div data-key="backspace" class="key action" role="button" tabindex="0"> <!-- Deletar -->
+                    <span>DEL</span>
+                </div>
+
+                <div data-key="0" class="key" role="button" tabindex="0"> <!-- 0 -->
+                    <span>0</span>
+                </div>
+
+                <div data-key="." class="key" role="button" tabindex="0"> <!-- Ponto Decimal -->
+                    <span>.</span>
+                </div>
+
+                <div data-key="=" class="key operator" role="button" tabindex="0"> <!-- Igual -->
+                    <span>=</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script> <!-- Inclusão do arquivo JavaScript -->
+
+</body>
+
+</html>
